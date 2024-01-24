@@ -1,4 +1,4 @@
 This is my de zoomcamp repo.
 See:
 
- - [homework-1](hw-01)
+ - [homework-1](hw01)
