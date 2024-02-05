@@ -1,11 +1,9 @@
-
-Here is the task for homework:
+Here is the task for homework: 
 https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/02-workflow-orchestration/homework.md
 
-
-
-
-
+<br>
+<hr>
+<br><br><br>
 
 <div>
 <img src="https://github.com/mage-ai/assets/blob/main/mascots/mascots-shorter.jpeg?raw=true">
