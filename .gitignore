@@ -33,6 +33,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-
+*.log
 *.json
 .DS_Store
+.variables
