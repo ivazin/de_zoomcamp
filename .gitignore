@@ -33,7 +33,14 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+
+
 *.log
 *.json
 .DS_Store
 .variables
+
+hw05/output/
+hw05/*.csv
+*.parquet*
+hw05/.ipynb_checkpoints
