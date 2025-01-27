@@ -44,3 +44,5 @@ hw05/output/
 hw05/*.csv
 *.parquet*
 hw05/.ipynb_checkpoints
+
+archive/

@@ -1,1 +1,0 @@
-See Google Colab link inside My_Homework_data_talks_club_data_extraction_and_ingestion.ipynb
