@@ -39,6 +39,7 @@ terraform.rc
 *.json
 .DS_Store
 .variables
+.venv/
 
 hw05/output/
 hw05/*.csv
