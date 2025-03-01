@@ -47,3 +47,5 @@ hw05/*.csv
 hw05/.ipynb_checkpoints
 
 archive/
+*.nosync/
+.dlt/
