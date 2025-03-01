@@ -1,10 +1,10 @@
-  
 ## Homework 04
 ### Cloud setup
 
 Steps to reproduce: 
 
 #### Prepare data
+
 Load source data to GCS bucket called `dezoomcamp_hw04_2025` with script [upload.py](./CloudOption/uploader.py) (or we may use colab for faster speeds).
   
 Creat `my_dataset` in BigQuery, load the source data from GCS to BigQuery with:
@@ -31,6 +31,7 @@ Creat `my_dataset` in BigQuery, load the source data from GCS to BigQuery with:
     );
 
 #### Prepare dbt cloud
+
 Creat project in dbt cloud.
 
 Creat a connection to BigQuery (double check the correct location :) And of course you need credentials.json ready with correct rights for it).
@@ -110,15 +111,19 @@ green: {best: 2020/Q1, worst: 2020/Q2}, yellow: {best: 2020/Q1, worst: 2020/Q2}
  
 
 **Question 6:** P97/P95/P90 Taxi Monthly Fare
+
 Made [hw04/CloudOption/taxi_rides_ny/models/core/fct_taxi_trips_monthly_fare_p95.sql](./CloudOption/taxi_rides_ny/models/core/fct_taxi_trips_monthly_fare_p95.sql)
+
   **Answer:**
   green: {p97: 55.0, p95: 45.0, p90: 26.5}, yellow: {p97: 31.5, p95: 25.5, p90: 19.0}
   
  
-**Question 7:**
+**Question 7:** Top #Nth longest P90 travel time Location for FHV
 
  Made [hw04/CloudOption/taxi_rides_ny/models/staging/stg_fhv_tripdata.sql](./CloudOption/taxi_rides_ny/models/staging/stg_fhv_tripdata.sql)
+ 
  Made [hw04/CloudOption/taxi_rides_ny/models/core/dim_fhv_trips.sql](./CloudOption/taxi_rides_ny/models/core/dim_fhv_trips.sql)
+
 Made [hw04/CloudOption/taxi_rides_ny/models/core/fct_fhv_monthly_zone_traveltime_p90.sql](./CloudOption/taxi_rides_ny/models/core/fct_fhv_monthly_zone_traveltime_p90.sql)
  
 SQL:
